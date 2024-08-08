@@ -1,0 +1,53 @@
+.bwater {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(24, 102, 155);
+  z-index: 1;
+  position: relative;
+}
+.brown {
+  height: 165px;
+  width: 40px;
+  background-color: brown;
+  z-index: 3;
+  margin: 20px;
+}
+.bridge {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  height: 200px;
+  width: 100%;
+}
+#background {
+  display: block;
+}
+.sun {
+  height: 155px;
+  width: 150px;
+  background-color: orange;
+  z-index: 7;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+#form {
+  margin: 1em;
+  text-align: right;
+  border: solid black 2px;
+}
+@media only screen and (max-width: 1050px) {
+  body {
+    background-color: antiquewhite;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: coral;
+  }
+}
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: darkgrey;
+  }
+}
